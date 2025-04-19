@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Outfit', sans-serif;
+        background-color: hsl(217, 54%, 11%);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    .card {
+        background-color: hsl(216, 50%, 16%);
+    }
+    .img-view {
+        background: hsla(178, 100%, 50%, 0.5);
+        display: grid;
+        top: 0;
+        place-content: center;
+        opacity: 0;
+        transition: 0.3s;
+    }
+    .img-view:hover {
+        opacity: 1;
+    }
+    .card .card-title {
+        color: hsl(0, 0%, 100%);
+    }
+    .card .card-title:hover {
+        color: hsl(178, 100%, 50%);
+    }
+    .nft {
+        border-bottom: .08rem solid hsla(215, 52%, 70%, 0.22);
+    }
+    .card-text {
+        color: hsl(215, 51%, 70%);
+        font-size: 15px;
+    }
+    .icon-ethereum {
+        color: hsl(178, 100%, 50%);
+    }
+    .icon-clock {
+        color: hsl(215, 51%, 70%);
+        font-size: 14px;
+    }
+    .icon-ethereum img {
+        width: 18px;
+    }
+    .icon-clock img {
+        width: 24px;
+    }
+    .avatar img {
+        width: 25px;
+    }
+    .avatar p {
+        color: hsl(215, 51%, 70%);
+    }
+    .avatar p span {
+        color: hsl(0, 0%, 100%);
+    }
+    .avatar p span:hover {
+        color: hsl(178, 100%, 50%);
+    }
